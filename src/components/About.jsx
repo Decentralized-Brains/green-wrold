@@ -1,10 +1,11 @@
-import World from "../img/world.png";
+import Tree from "../img/tree1.png";
+import "../App.css";
 
 const About = () => {
   return (
-    <div className="container py-[100px] grid gap-6 md:grid-cols-2 place-items-center">
-      <div>
-        <img src={World} alt="" />
+    <div className="container pt-[150px] pb-[150px] grid gap-6 md:grid-cols-2 place-items-center">
+      <div className="treeBG">
+        <img className="w-[300px] md:w-[350px]" src={Tree} alt="" />
       </div>
       <div>
         <h2>

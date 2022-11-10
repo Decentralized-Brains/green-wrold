@@ -13,3 +13,8 @@
     background-position-x: 100%;
   }
 }
+
+.treeBG {
+  background: url("./img/treebg.png") center no-repeat;
+  background-size: contain;
+}
