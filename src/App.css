@@ -1,0 +1,15 @@
+.bgimage {
+  background: url("./img/cloud.png") center no-repeat fixed;
+  background-size: cover;
+  background-position-x: 100%;
+  animation: moving 40s linear infinite;
+}
+
+@keyframes moving {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
