@@ -9,14 +9,14 @@ const Roadmap = () => {
       </h3>
       <br />
       <br />
-
+      {/* <div className="w-full h-[2px] bg-gray-200 absolute mt-4">h2</div> */}
       <div className="grid place-items-center gap-4 md:grid-cols-3 xl:grid-cols-6">
-        <RoadmapCard />
-        <RoadmapCard reverse />
-        <RoadmapCard />
-        <RoadmapCard reverse />
-        <RoadmapCard />
-        <RoadmapCard reverse />
+        <RoadmapCard num={1} borderRight />
+        <RoadmapCard num={2} borderLeft borderRight />
+        <RoadmapCard num={3} borderLeft borderRight />
+        <RoadmapCard num={4} borderLeft borderRight />
+        <RoadmapCard num={5} borderLeft borderRight />
+        <RoadmapCard num={6} borderLeft />
       </div>
     </div>
   );

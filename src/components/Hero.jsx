@@ -4,7 +4,7 @@ import Tree from "../img/tree.png";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen bg-[#CACFC7] bgimage">
+    <div className="w-full h-screen bgimage">
       <div className="h-[100px] md:hidden"></div>
       <div className="container">
         <div className="grid md:grid-cols-2 gap-6 place-items-center min-h-screen">

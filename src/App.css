@@ -1,5 +1,6 @@
 .bgimage {
   background: url("./img/cloud.png") center no-repeat fixed;
+
   background-size: cover;
   background-position-x: 100%;
   animation: moving 40s linear infinite;
@@ -8,9 +9,41 @@
 @keyframes moving {
   0% {
     background-position-x: 0%;
+    background-color: #98a29d;
+  }
+  5% {
+    background-color: #dadada;
+  }
+  10% {
+    background-color: #98a29d;
+  }
+  20% {
+    background-color: #dadada;
+  }
+  30% {
+    background-color: #98a29d;
+  }
+  40% {
+    background-color: #dadada;
+  }
+  50% {
+    background-color: #98a29d;
+  }
+  60% {
+    background-color: #dadada;
+  }
+  70% {
+    background-color: #98a29d;
+  }
+  80% {
+    background-color: #dadada;
+  }
+  90% {
+    background-color: #98a29d;
   }
   100% {
     background-position-x: 100%;
+    background-color: #dadada;
   }
 }
 
