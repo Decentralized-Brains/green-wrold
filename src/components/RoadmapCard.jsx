@@ -11,11 +11,12 @@ const RoadmapCard = ({ borderLeft, borderRight, num }) => {
         {num}
       </div>
       <div className="h-2 xl:h-[50px] w-[2px] mt-2 bg-gray-300"></div>
-      <div className="max-w-[250px] text-center bg-gray-400/20 p-4 rounded-xl">
-        <h3 className="text-2xl mb-3">Lorem, ipsum.</h3>
+      <div className="max-w-[250px] text-center  p-4 pt-0 rounded-xl">
+        <h3 className="text-xl mb-3 bg-green-500/20 p-2 rounded-full">
+          Lorem, ipsum.
+        </h3>
         <p className="mb-3">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat cum
-          atqueommodi eveniet aperiam!
         </p>
       </div>
     </div>
