@@ -1,5 +1,3 @@
-import React from "react";
-
 const RoadmapCard = ({ borderLeft, borderRight, num }) => {
   return (
     <div className="flex flex-col items-center relative">

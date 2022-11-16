@@ -1,5 +1,13 @@
 import React from "react";
 import RoadmapCard from "./RoadmapCard";
+import { motion } from "framer-motion";
+const PopUp = {
+  offscreen: { scale: 0.3 },
+  onscreen: {
+    scale: 1,
+    transition: { type: "spring", bounce: 0.4, duration: 1.2 },
+  },
+};
 
 const Roadmap = () => {
   return (
@@ -10,14 +18,32 @@ const Roadmap = () => {
       <br />
       <br />
       {/* <div className="w-full h-[2px] bg-gray-200 absolute mt-4">h2</div> */}
-      <div className="grid place-items-center gap-4 grid-cols-2 md:grid-cols-3 xl:grid-cols-6">
-        <RoadmapCard num={1} borderRight />
-        <RoadmapCard num={2} borderLeft borderRight />
-        <RoadmapCard num={3} borderLeft borderRight />
-        <RoadmapCard num={4} borderLeft borderRight />
-        <RoadmapCard num={5} borderLeft borderRight />
-        <RoadmapCard num={6} borderLeft />
-      </div>
+      <motion.div
+        initial={"offscreen"}
+        whileInView={"onscreen"}
+        transition={{ staggerChildren: 0.2 }}
+        viewport={{ once: true, amount: 0.5 }}
+        className="grid place-items-center gap-4 grid-cols-2 md:grid-cols-3 xl:grid-cols-6"
+      >
+        <motion.div variants={PopUp}>
+          <RoadmapCard num={1} borderRight />
+        </motion.div>
+        <motion.div variants={PopUp}>
+          <RoadmapCard num={2} borderLeft borderRight />
+        </motion.div>
+        <motion.div variants={PopUp}>
+          <RoadmapCard num={3} borderLeft borderRight />
+        </motion.div>
+        <motion.div variants={PopUp}>
+          <RoadmapCard num={4} borderLeft borderRight />
+        </motion.div>
+        <motion.div variants={PopUp}>
+          <RoadmapCard num={5} borderLeft borderRight />
+        </motion.div>
+        <motion.div variants={PopUp}>
+          <RoadmapCard num={6} borderLeft />
+        </motion.div>
+      </motion.div>
     </div>
   );
 };
