@@ -13,7 +13,7 @@ const Teams = () => {
         totam recusandae earum.
       </p>
 
-      <div className="grid md:grid-cols-4 pt-20 gap-6 px-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 pt-10 xl:pt-16 gap-6 px-4">
         {TeamsData.map((data) => (
           <TeamCard key={data.id} data={data} />
         ))}

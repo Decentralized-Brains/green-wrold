@@ -2,7 +2,7 @@ import World from "../img/world.png";
 
 const AafterTeam = () => {
   return (
-    <div className="container pb-[150px] grid md:grid-cols-2 gap-6 place-items-center">
+    <div className="container xl:pb-10 grid md:grid-cols-2 gap-6 place-items-center">
       <div>
         <h2>
           Lorem ipsum <span className="p-text">dolor</span> sit amet

@@ -2,7 +2,7 @@ import { PartnersData } from "./Data";
 
 const Partners = () => {
   return (
-    <div className="container grid place-items-center gap-4 md:gap-12 pb-[150px]">
+    <div className="container grid place-items-center gap-4 md:gap-12 pb-16 xl:pb-[100px]">
       <h3 className="text-3xl">
         <span className="p-text">Partners</span> & Investors
       </h3>

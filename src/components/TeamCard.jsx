@@ -6,7 +6,7 @@ const TeamCard = ({ data }) => {
   return (
     <div className="max-w-[300px] p-4">
       <div
-        className="w-[150px] bg-no-repeat bg-contain mx-auto"
+        className="w-[100px] md:w-[150px] bg-no-repeat bg-contain mx-auto"
         style={{ backgroundImage: `url(${BG})` }}
       >
         <img

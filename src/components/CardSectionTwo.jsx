@@ -8,7 +8,7 @@ const CardSectionTwo = () => {
         Ipsum <span className="p-text">Partners</span> dolor sit amet.
       </h3>
       <div>
-        <div className="grid md:grid-cols-3 pt-20 gap-6 px-4">
+        <div className="grid md:grid-cols-3 pt-10 gap-6 px-4">
           {Card2Data.map((data) => (
             <Card2 data={data} key={data.id} />
           ))}

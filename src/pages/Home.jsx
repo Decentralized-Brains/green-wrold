@@ -1,12 +1,12 @@
 import AafterTeam from "../components/AafterTeam";
 import About from "../components/About";
 import CardOneSection from "../components/CardOneSection";
-// import CardSectionTwo from "../components/CardSectionTwo";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Partners from "../components/Partners";
 import Roadmap from "../components/Roadmap";
 import Teams from "../components/Teams";
+import CardSectionTwo from "../components/CardSectionTwo";
 
 const Home = () => {
   return (
@@ -16,9 +16,9 @@ const Home = () => {
       <Partners />
       <AafterTeam />
       <CardOneSection />
-      {/* <CardSectionTwo /> */}
       <Roadmap />
       <Teams />
+      <CardSectionTwo />
       <Footer />
     </div>
   );
