@@ -1,6 +1,9 @@
+:root {
+  --color1: #c8fff1;
+  --color2: #f1fff6;
+}
 .bgimage {
   background: url("./img/cloud.png") center no-repeat fixed;
-
   background-size: cover;
   background-position-x: 100%;
   animation: moving 40s linear infinite;
@@ -9,41 +12,41 @@
 @keyframes moving {
   0% {
     background-position-x: 0%;
-    background-color: #98a29d;
+    background-color: var(--color1);
   }
   5% {
-    background-color: #dadada;
+    background-color: var(--color2);
   }
   10% {
-    background-color: #98a29d;
+    background-color: var(--color1);
   }
   20% {
-    background-color: #dadada;
+    background-color: var(--color2);
   }
   30% {
-    background-color: #98a29d;
+    background-color: var(--color1);
   }
   40% {
-    background-color: #dadada;
+    background-color: var(--color2);
   }
   50% {
-    background-color: #98a29d;
+    background-color: var(--color1);
   }
   60% {
-    background-color: #dadada;
+    background-color: var(--color2);
   }
   70% {
-    background-color: #98a29d;
+    background-color: var(--color1);
   }
   80% {
-    background-color: #dadada;
+    background-color: var(--color2);
   }
   90% {
-    background-color: #98a29d;
+    background-color: var(--color1);
   }
   100% {
     background-position-x: 100%;
-    background-color: #dadada;
+    background-color: var(--color2);
   }
 }
 

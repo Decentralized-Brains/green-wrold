@@ -70,7 +70,7 @@ const Navbar = () => {
               </a>
             ))}
           </ul>
-          <button className="mr-4 md:mr-0 md:ml-12">Connect</button>
+          <button className="mr-4 md:mr-0 md:ml-12">Login</button>
           <div
             onClick={handleNav}
             className="md:hidden text-black dark:text-white cursor-pointer"

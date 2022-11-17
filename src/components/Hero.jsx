@@ -4,10 +4,10 @@ import Tree from "../img/tree.png";
 
 const Hero = () => {
   return (
-    <div className="w-full min-h-screen bgimage">
+    <div className="w-full md:min-h-screen bgimage">
       <div className="h-[100px] md:hidden"></div>
       <div className="container">
-        <div className="grid md:grid-cols-2 gap-6 place-items-center min-h-screen">
+        <div className="grid md:grid-cols-2 gap-6 place-items-center md:min-h-screen">
           <div>
             <h1
               className="text-6xl mb-10
@@ -22,7 +22,7 @@ const Hero = () => {
               deserunt quia tempore consectetur!
             </p>
           </div>
-          <div>
+          <div className="hidden md:block">
             <img src={Tree} className="w-[200px] md:w-full scale-125" alt="" />
           </div>
         </div>
